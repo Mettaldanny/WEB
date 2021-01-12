@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="footer">
-                <asp:Button ID="btnLogin" runat="server" CssClass="btn bg-oliva" Text="Ingresar"></asp:Button>
+                <asp:Button ID="btnLogin" runat="server" CssClass="btn bg-oliva" Text="Ingresar" OnClick="btnLogin_Click"></asp:Button>
             </div>
         </form>
     </div>
